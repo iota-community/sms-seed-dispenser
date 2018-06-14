@@ -1,0 +1,21 @@
+{
+  "name": "sms-seeds",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "htmlescape": "^1.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.2",
+    "twilio": "^3.17.2"
+  }
+}
