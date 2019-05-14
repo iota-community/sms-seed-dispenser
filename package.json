@@ -4,10 +4,11 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "htmlescape": "^1.1.1",
